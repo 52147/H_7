@@ -11,10 +11,11 @@ use 5 thread to create 20 genome sequence each
 
  
 ##  Difference between single thread and multi thread program:
-              Single Thread     vs    Multi Thread
-run time        3s                          4s
 
 
+| ------------- | Single Thread  | Multi Thread |
+| ------------- | ------------- | ------------- |
+| run time | 3s  | 4s  |
 ## Reference
 
 https://stackoverflow.com/questions/23282319/java-creating-a-string-of-length-x-with-random-chars   
