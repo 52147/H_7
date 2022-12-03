@@ -1,6 +1,6 @@
 # H_7
 ## Thread
-Single thread: execut one thread without inturrputiom   
+Single thread: execute one thread without interruption   
 Multi-thread: execute many thread at the same time while sharing resource
 
 ## Single thread program
@@ -242,4 +242,5 @@ Thread-2 Elapse Time 4
 https://stackoverflow.com/questions/23282319/java-creating-a-string-of-length-x-with-random-chars   
 https://www.baeldung.com/java-measure-elapsed-time    
 https://www.geeksforgeeks.org/java-program-to-run-multiple-threads/   
-https://www.geeksforgeeks.org/how-to-get-the-id-of-a-current-running-thread-in-java/    
+https://www.geeksforgeeks.org/how-to-get-the-id-of-a-current-running-thread-in-java/      
+https://pediaa.com/what-is-the-difference-between-single-thread-and-multi-thread-in-java/
