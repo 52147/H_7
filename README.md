@@ -1,11 +1,11 @@
 # H_7
 ## Thread
-Single thread: execut one thread without inturrputiom
-multi-thread: execute many thread at the same time while sharing resource
+Single thread: execut one thread without inturrputiom   
+Multi-thread: execute many thread at the same time while sharing resource
 
 ## Single thread program
-genome is a sequence that only contains 4 character "A, T, C, G"
-create 100 random sequence of genome that contain 10 character 
+Genome is a sequence that only contains 4 character "A, T, C, G"   
+Create 100 random sequence of genome that contain 10 character   
 ## Multi-thread program
 use 5 thread to create 20 genome sequence each
 
