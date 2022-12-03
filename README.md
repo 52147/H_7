@@ -13,7 +13,7 @@ use 5 thread to create 20 genome sequence each
 ##  Difference between single thread and multi thread program:
 
 
-| ------------- | Single Thread  | Multi Thread |
+|  | Single Thread  | Multi Thread |
 | ------------- | ------------- | ------------- |
 | run time | 3s  | 4s  |
 ## Reference
