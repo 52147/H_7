@@ -237,7 +237,7 @@ Thread-2 Elapse Time 4
 
 ```
 ## Notice
-In single thread program, we don't need to extends Thread class because we already have one main thread in class.      
+In single thread program, we don't need to extends Thread class to create new thread because we already have one main thread in class.      
 Every java program have at least one thread called main thread, which invokes the main().
 
 
