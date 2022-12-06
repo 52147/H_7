@@ -23,107 +23,108 @@ If we use sleep() in multi thread program, we can observe that five thread print
 ### `Single Thread`
 
 ```
-CGGAGCTACT Thread-0
-CCTCTGGATA Thread-0
-TCAAATAAGA Thread-0
-CCAGAATAGG Thread-0
-GATTTGGCCT Thread-0
-TAACGTAGTC Thread-0
-GTCATACACC Thread-0
-TTCTATTGCC Thread-0
-CCATAGTCGG Thread-0
-TAATTCGACT Thread-0
-CAGAGCGTAT Thread-0
-TGGAACCTAA Thread-0
-GTGCGGTGGC Thread-0
-CTTAGTAACG Thread-0
-GAGACAATTA Thread-0
-TTAGCGGGGG Thread-0
-CGCTTTTCGC Thread-0
-AGTGCTGGTG Thread-0
-GATATTGCTT Thread-0
-AAGCCGGAAA Thread-0
-CGGAGGATAA Thread-0
-CTATGGTGCT Thread-0
-CAAATAGCCG Thread-0
-ACGGCCCCTT Thread-0
-AATATTATAG Thread-0
-TCTGGCGACT Thread-0
-TGCCGCGTGC Thread-0
-AACAATTGTT Thread-0
-CGTCTAGTTC Thread-0
-CTTAATGAGC Thread-0
-TTCCAAATCA Thread-0
-GGGGGACACT Thread-0
-ATGTGAACCC Thread-0
-TTCAAAGGAG Thread-0
-AAGTGTAGTA Thread-0
-AGGATAATGC Thread-0
-GAATGGTACG Thread-0
-CTACACCACT Thread-0
-ACTTGGCGGA Thread-0
-TATAGGTACT Thread-0
-TTGCTCATGT Thread-0
-CGTCCTGATT Thread-0
-CCCGTCTGGT Thread-0
-AGCCAACCTC Thread-0
-TAACTTTATC Thread-0
-GCAATACGTC Thread-0
-ACCATCACTA Thread-0
-ACGGCGCCTA Thread-0
-GCCAAGCGGA Thread-0
-GGCATACTCA Thread-0
-GTCGCGAGTC Thread-0
-TTGGGTAAGT Thread-0
-TCTATATCAA Thread-0
-GCATGGGAGT Thread-0
-GTAGATATGC Thread-0
-CGCAAAAATC Thread-0
-TTGGCAAAGG Thread-0
-AAAGCACGTG Thread-0
-CAGTACACAC Thread-0
-TGGTCTCACT Thread-0
-GTTCAGATTG Thread-0
-CTCTAGCCTA Thread-0
-TTATCGACCG Thread-0
-CACATGGCCG Thread-0
-TGACGAGCTA Thread-0
-GGCGTGCTTC Thread-0
-TGAGTGCAAG Thread-0
-GGGCTGGGTG Thread-0
-CATCTCGTGC Thread-0
-TAGCGCATTA Thread-0
-TAGTGGTCCA Thread-0
-AGTAGGAGCC Thread-0
-TCGCCTGGAA Thread-0
-TGGCTCATAT Thread-0
-TGGAATTAAT Thread-0
-TCCCGTTCAA Thread-0
-ATCGACGTAA Thread-0
-TGTTGCTCCA Thread-0
-ACAAGGGGCT Thread-0
-CTCGCTTAGT Thread-0
-CATATTGTAC Thread-0
-CAGGATATTA Thread-0
-CTAAGCTACA Thread-0
-TTCAAGTTAA Thread-0
-AATGACCGGT Thread-0
-TCCCAGTCGT Thread-0
-GACGTTCTGG Thread-0
-TTCCAGAAAT Thread-0
-CAAGCAATAA Thread-0
-TAGGCTTCTT Thread-0
-CGGGGATTAC Thread-0
-GATGCATCGG Thread-0
-TTTATTCCGA Thread-0
-TTGACACTAA Thread-0
-GGCAATTAGT Thread-0
-CGCGGAGTGC Thread-0
-CTAGACTACG Thread-0
-CTGGTCGCAG Thread-0
-TGCCCTCTAG Thread-0
-CGCCTTCGAG Thread-0
-Thread-0 Elapse Time 3
+CGCATGAATC main
+GGTGCAGTGT main
+GCACCCCACC main
+CCAGTGAGGT main
+GCGACGGTGC main
+AGTACACTTT main
+ACCCTGCGGG main
+ACCCTGGTGA main
+TCGTTCACAC main
+GTTCACCACC main
+TGGGTGGAAA main
+GTAGCCAGAG main
+GAGCCACATC main
+GTACCACCTA main
+TACGGACACA main
+AAGTAAGATT main
+CACTTGGCCT main
+TCTTCCTTCC main
+CGTACCTGCA main
+AACGCCGTAG main
+TAACATGCTA main
+TCCCCGCTGG main
+GCTCTTTGTT main
+AAGAAAATCC main
+AAATTTGATT main
+ATCCGAGCAT main
+ACTAGAGAGA main
+GTCATCTCGG main
+CTTATAGCTC main
+TCGAATGTCT main
+AACCAGTAGC main
+GGCACATGAG main
+GCATGTTGAA main
+TGGTAATTCT main
+CACCGAGCTT main
+CCCGCGCCTT main
+GGGTAGGGAT main
+ACTCAATTCG main
+TCAATAAGTG main
+TAGCAGTCAT main
+AGACACCTAG main
+TCGTCTCACG main
+AAATTGATCC main
+TGCTAGACAT main
+CCGGGGACCC main
+CATAATGGCT main
+TGGCAAGGTG main
+GGTGGTAGCT main
+GGGTTAATAA main
+CAGCCCGCCC main
+CTTGCCGATC main
+TTTGCTCTGG main
+CTACCCAGGG main
+TCTCGCGCCG main
+ACGCGCCGAG main
+CGCGTGCAGA main
+TTGCACTTTT main
+AACGACTGCA main
+AAGTGTTACC main
+GGACATCCCA main
+GTTTTGCCTA main
+CTTGCAACTA main
+AACGATACCT main
+CGGGTTTGTA main
+GAAGTTACTA main
+ATTCTCAGTG main
+ATTCGACGTT main
+AGGAGCACTA main
+GCGCGAAAAA main
+TGGTCTAACA main
+GCTCGATTTG main
+CTGTGGATCT main
+AGGGATGAGA main
+CCGTTTCCAA main
+GATTGCCTAA main
+TCCCCCCCTA main
+CAGGCCGTGC main
+TAATACGACT main
+GTATAAAAGA main
+GTTCGATGTG main
+AGGTTGCGGA main
+ATGCCGGCTA main
+AGTCGCATTA main
+CATTTCGGTC main
+CGTAACACGA main
+AGTGTGTCGG main
+TTTAGCTGAA main
+GGTCGAGGGG main
+TTCGCGCATT main
+CACCAGGCAC main
+CTTACATCTA main
+CGGCTCAACT main
+CAAGTCGTGG main
+TATCAGGCGT main
+GGTGAGACTT main
+GCATCAATTG main
+TCGGTAAATC main
+ATAGTGGCGA main
+CTACGACAAA main
+ACTCCTTGAA main
+main Elapse Time 3
+
 ```
 
 ### `Multi-Thread`
@@ -236,14 +237,13 @@ Thread-2 Elapse Time 4
 
 ```
 ## Notice
-In single thread program, we don't need to extends Thread because main is one thread.   
-We can directly create the object of main class and use it to run the function.
-
+In single thread program, we don't need to extends Thread class because we already have one main thread in class.      
+Every java program have at least one thread called main thread, which invokes the main().
 
 
 
 ## Reference
-
+https://stackoverflow.com/questions/22051031/is-java-main-method-a-thread
 https://stackoverflow.com/questions/23282319/java-creating-a-string-of-length-x-with-random-chars   
 https://www.baeldung.com/java-measure-elapsed-time    
 https://www.geeksforgeeks.org/java-program-to-run-multiple-threads/   
