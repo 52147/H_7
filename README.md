@@ -18,7 +18,7 @@ If we don't use sleep() to boserve the multi thread program and Single Thread pr
 | ------------- | ------------- | ------------- |
 | run time | 3s  | 4s  |
 
-If we use sleep() in multi thread program, we can observe that five thread print genome sequence at the same time then keep iterating until create 100 genome sequence which means 5 thread execute concurrently.   
+If we use `Thread.sleep()` in multi-thread program, we can observe that five threads print genome sequences at the same time then iterating 4 times until 100 genome sequence are created, which means 5 threads execute concurrently. 
 ## Output
 ### `Single Thread`
 
