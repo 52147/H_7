@@ -12,11 +12,13 @@ use 5 thread to create 20 genome sequence each
  
 ##  Difference between single thread and multi thread program:
 
+If we don't use sleep() to boserve the multi thread program and Single Thread program, there is no difference between these two because run time too fast.
 
 |  | Single Thread  | Multi Thread |
 | ------------- | ------------- | ------------- |
 | run time | 3s  | 4s  |
 
+If we use sleep() in multi thread program, we can observe that five thread print genome sequence at the same time then keep iterating until create 100 genome sequence which means 5 thread execute concurrently.   
 ## Output
 ### `Single Thread`
 
@@ -233,6 +235,9 @@ CGTTCTCTTC Thread-2
 Thread-2 Elapse Time 4
 
 ```
+## Notice
+In single thread program, we don't need to extends Thread because main is one thread.   
+We can directly create the object of main class and use it to run the function.
 
 
 
