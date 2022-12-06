@@ -10,7 +10,7 @@ Create 100 random sequence of genome that contain 10 character
 use 5 thread to create 20 genome sequence each
 
  
-##  Difference between single thread and multi thread program:
+##  Difference between single thread and multi thread program
 
 If we don't use sleep() to boserve the multi thread program and Single Thread program, there is no difference between these two because run time too fast.
 
